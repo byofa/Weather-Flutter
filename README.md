@@ -1,16 +1,45 @@
-# tic_mob3
+# TIC-MOB3
+## _What's The Weather_
 
-A new Flutter project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- La météo du jour (température en fonction de l'heure)
+- Les prévisions météo sur 5 jours (ou plus avec les détails des jours)
+- La vitesse du vent et sa direction
+- La température en Celsius et Fahrenheit
+- Les températures minimale et maximale
+- La pression et l’humidité
+- Afficher la liste des villes sauvegardées par l'utilisateur
+- Ajouter une ville dans la liste (après recherche de celle-ci, par exemple)
+- Supprimer une ville listée
 
-A few resources to get you started if this is your first Flutter project:
+## Tech
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [https://flutter.dev/] - Build apps for any screen!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+https://docs.flutter.dev/get-started/install
+
+Si vous avez la moindre erreur n'hesitez pas a utilisé cette commande:
+
+```sh
+flutter doctor
+```
+
+## Development
+
+Mappage des requetes JSON pour pouvoir y avoir accès dans l'application, nous avons géré cela dans la partit Models.
+
+Création de la partit Helper, qui fais entre guillemet office d'aide pour tout comme par exemple les clé d'API , L'url de l'API , clé de Token de l'API.
+
+Pour les favoris et pour certain Settings ont sauvegarde tout dans des shareds de préférence. 
+
+Ajout d'un systeme de log pour quand ont fais les tests. 
+
+
+
+
+
+
